@@ -37,6 +37,8 @@ namespace TestApp.Context
 
             modelBuilder.Entity<LogistianProfile>().Property(g => g.IsAvailableForHire).HasColumnName("IsAvailableForHire");
             modelBuilder.Entity<DriverProfile>().Property(g => g.IsAvailableForHire).HasColumnName("IsAvailableForHire");
+
+
         }
     }
 }
